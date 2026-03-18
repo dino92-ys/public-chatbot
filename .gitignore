@@ -1,0 +1,38 @@
+# ============================================================
+# 복지 챗봇 프로젝트 .gitignore
+# ============================================================
+
+# --- 환경 변수 (API 키 보호) ---
+.env
+.env.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- 벡터DB (ChromaDB) ---
+chroma_db/
+
+# --- 백업 파일 ---
+*.bk
+*.bak
+
+# --- macOS ---
+.DS_Store
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- conda 환경 export (참고용은 유지, 자동생성 제외) ---
+*.conda
+
