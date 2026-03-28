@@ -36,3 +36,5 @@ chroma_db/
 # --- conda 환경 export (참고용은 유지, 자동생성 제외) ---
 *.conda
 
+# 정리 문서
+*.md
